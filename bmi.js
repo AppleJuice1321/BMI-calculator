@@ -1,5 +1,4 @@
 function BeregnBMI() {
-    //Bereign BMI som vægten div, med højden i 2. potens
     var height=document.getElementById("Height").value;
     var weight=document.getElementById("weight").value;
     var BMI=(parseFloat(Weight)/(parseFloat(Height)*parseFloat(Height))).toPrecision(3));
